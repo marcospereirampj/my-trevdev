@@ -32,3 +32,14 @@ alias openscad='/opt/homebrew-cask/Caskroom/openscad/2014.03/OpenSCAD.app/Conten
 alias pyserve='python -m SimpleHTTPServer $1'
 
 alias java='/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java'
+
+alias simpson01-ssh="ssh marcospereira@104.131.77.119"
+alias simpson02-ssh="ssh marcospereira@162.243.220.200"
+
+alias chrome-no="open -a Google\ Chrome --args --disable-web-security"
+
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export WORKON_HOME=~/Works/workspaces/envs
+source /usr/local/bin/virtualenvwrapper.sh
+
+
